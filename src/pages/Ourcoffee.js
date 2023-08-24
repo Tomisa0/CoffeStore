@@ -2,9 +2,11 @@ import React from "react";
 import Products from "../components/Products";
 import dataCoffee from "../db.json";
 import Card from "../components/Card";
+import Title from "../components/Title";
 
 export default function Ourcoffee() {
   return <div>
+    <Title titleHeader={"Our Coffee"}></Title>
     <Card
         title={"About our beans"}
         text="Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
